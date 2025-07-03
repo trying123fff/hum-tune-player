@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>嗡嗡声播放器</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding-top: 50px;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>嗡嗡声播放器</h1>
+    <p>点击下面按钮播放嗡嗡声</p>
+    <audio id="buzzAudio" src="buzz.mp3"></audio>
+    <button onclick="document.getElementById('buzzAudio').play()">播放嗡嗡声</button>
+</body>
+</html>
